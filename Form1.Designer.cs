@@ -46,8 +46,8 @@
             this.btnSaveResults = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.chartDistribution = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label1 = new System.Windows.Forms.Label();
+            this.chartDistribution = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartDistribution)).BeginInit();
@@ -201,6 +201,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Результати";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(19, 365);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(205, 13);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Полігон розподілу на відносної частоти";
+            // 
             // chartDistribution
             // 
             chartArea1.Name = "ChartArea1";
@@ -213,15 +222,6 @@
             this.chartDistribution.TabIndex = 16;
             this.chartDistribution.Text = "chart1";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 365);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 13);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Полігон розподілу на відносної частоти";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -232,6 +232,8 @@
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(570, 755);
+            this.MinimumSize = new System.Drawing.Size(570, 726);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Random Sequence App";
